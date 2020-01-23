@@ -1,6 +1,6 @@
 # Chapter 3: Why to escape platforms?
 
-## OUTLINE OF THE CHAPTER
+## Outline
 
 A taxonomy of (political) issues:
 
