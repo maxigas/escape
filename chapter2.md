@@ -17,6 +17,12 @@
         - dissappearance of multi-platform client
     + APIs, technical means and strategies of enclosure [@Helmond2015a; @Helmond+etal2019a]
 
+## From @Maxigas2017c
+
+**Internet Relay Chat is a very basic but very flexible protocol for real time written conversations.**  It has been first implemented in 1988, one year before the World Wide Web.  IRC reached the height of its popularity as a general purpose social media during the first Gulf War and the siege of Sarajevo (1992-1996).  At this time it performed various functions that were later fulfilled by specialised programs and platforms, such as dating, following friends or file sharing.  *As the population of the Internet grew and market consolidation set it on the turn of the millennium, IRC faded from the public view.*
+
+…
+
 ## From @LatzkoToth2014a (adapted and expanded draft version)
 
 ## The unreachable standard
@@ -33,7 +39,7 @@ In a message dated February 1, 1998, Peter de Vries, one of the members of IRCUP
 
 ## Platformisation
 
-The platformisation process did not happen overnight. There were gradual steps taken by the various commercial actors that would become the giants of the web as we know them today--the "GAFAM". This phase, that could roughly been situated in the first decade of the millenium, can be called the *proto-platformisation* of the Internet in general, and of social media in particular. The first step is privatisation of the communicational space. The second one is its technical enclosure through the restriction of its iteroperability with third party clients. The third step is its commercialisation and its "corporatisation". Soon after will come the adoption of the platform model, from the examples of newcomers like Facebook and Twitter.       
+The platformisation process did not happen overnight.  There were gradual steps taken by the various commercial actors that would become the giants of the web as we know them today--the "GAFAM".  This phase, that could roughly been situated in the first decade of the millenium, can be called the *proto-platformisation* of the Internet in general, and of social media in particular.  The first step is privatisation of the communicational space.  The second one is its technical enclosure through the restriction of its interoperability with third party clients.  The third step is its commercialisation and its "corporatisation". Soon after will come the adoption of the platform model, from the examples of newcomers like Facebook and Twitter.       
 
 ### First step: the privatisation of chat
 
@@ -44,21 +50,62 @@ In october 2006, Microsoft shut down its MSN Chat service, closing thousands of 
 It was never brought back, in line with a trend that followed all the major proprietary chat device providers. 
 
 After the dot-com boom, market concentration set in within the online services sector, establishing social networks as the most lucrative business model. On the one hand, social media proﬁts are turned through datamining and proﬁling of users, which enhances targeted advertising to the same audience (Fuchs 2012). On the other hand, social media monopolies establish themselves as obligatory passage points for data trafﬁc to and service provision by other actors, a leverage they can exploit for capital accumulation and market positioning. This process has been described as the “platformization” of Internet services (Gillespie 2010). Rather  than a service in its own right, instant messaging is seen today as a core component of social networking. While presence and contact management distinguished IM from other participation frameworks, the rise of social networking led to a hybrid- ization with chat devices where they can scarcely be discussed as a distinct form of mediation, and therefore, sociality.
+
 The XMPP (Extensible Messaging and Presence Protocol) family of standards was proposed by open-source advocates in 1999. The open protocol aimed to make proprietary Instant Messengers compatible through a common language, addressing the problem of market fragmentation where messages cannot cross corporate silos; to allow anybody to provide compatible IM services, decreasing the grip of social media monopolies on users; and to support the seamless integration of messaging into the widest possible range of technologies, encouraging hybridization. Propri- etary IM operators progressively added various levels of XMPP support (Skype 2003; Google Talk 2005; Facebook Chat 2008; AOL 2008). Ironically, XMPP itself soon fell victim to fragmentation due to its many extensions. Its popularity fell from ten million users in 2003 – when it reportedly surpassed ICQ users – to a level where its relevance itself is debated (XMPP Standards Foundation 2003; Quora 2015). Monopolies progressively dropped XMPP compatibility, yet incompatible implementations still form the core of many popular services such as WhatsApp, PlayStation, or Facebook. A similar contemporary attempt is the Matrix protocol which pitched platformization as its ultimate goal  from  the  very  beginning,  even though it is still unclear whether users really need IM interoperability (Weinberger 2014).
+
 Ultimately, today users encounter chat integrated into social media platforms (such as Twitter, Skype and Facebook) or IM on mobile platforms (such as WhatsApp, Telegram, and Signal). While these are generally built with person-to- person communication in mind, over time group chat features have been added to their functions, which is exploited by users to form topical communities. Therefore, some IRC-like dynamics emerge against the script of these devices.
 
+## Second step: Technical enclosure
 
+### From @Maxigas2017c
+
+After a long and parallel history of chat devices, in the 1990s they consolidated into IRC.  The next generation of chat devices were *Instant Messengers* [@Maxigas2014b].  On the backend [@Stalder2013a], IMs used proprietary protocols and centralised infrastructures, instead of the community defined protocols of IRC and its federated model.
+
+…
+
+IRC networks have no corporate overlords.  Instead, they are made up of federated servers run by otherwise unconnected actors, from individual geeks through academic institutions to IT companies or even criminal organisations.  So much so, that upon logging in to a mainstream IRC network today, it is actually hard to find out who is sponsoring the resources behind the server.  The model of Internet-wise, community-run, community-policed and community-developed communication resources may seem atavistic today, when even starry-eyed activists think that it is impossible to change the world without becoming entrepreneurs and finding a “sustainable” business model.  However, running the infrastructure as a commons works for IRC just as well as in the 1990s.  It allows users to understand and control the media they use to share and collaborate: an essential condition for nurturing *technological sovereignty*.
+
+### New text
+
+> [name=Maxigas] This is the place where Helmond’s historical survey of Facebook APIs and her corresponding platformisation argument is useful.  We can do a similar exercise with IRC federation and XMPP compatibility.
+
+Helmond’s empirical data and theoretical argument of platformisation through APIs is convincing.  However, it does not account for the emergence of APIs themselves as a technical measure in the service of a functional business model and a tool for articulating the sovereignty of platforms.  What we add to her argument is the prehistory of APIs through federation practices and protocol compatibility.
+
+Federated networks and common protocols offer two alternative visions of “how things might have been otherwise”, e.g. alternative technological trajectories, on which we will draw on Chapter 4 (What are the alternatives?).  In this sense they are the basis for contemporary technological practices that challenge the hegemony of platforms.  At the same time, they are also part of the story of platformisation, which we tell in this chapter.
+
+Federated networks and common protocols worked well in terms of engineering standards and served significant use cases of chat, but lacked the appropriate political economical foundations for capital accumulation, e.g. building profitable business models on them.  This accounts for both their emergence and their demise.  At this point there is a strong belief in the IT industry that can be summerised in the adage “Build it and they will come”.  Providing services which users adopt was seen as the primary imperative for capturing a market segment such as chat, while clarifying how to turn user activity into a revenue stream was secondary.  Such an attitude does not amount to economic irrationality though, since the price points of publically traded companies reflected the same beliefs, so that more users translated to more money through the stock market.  Financialisation meant that value came from capitalising on trust in the markets rather than varolirsation further down the value chain.  Therefore, in the second step of platformisation the primary objective was integrating users into services that later evolved into platforms.
+
+Now it is clear why Microsoft provided access to Windows users to IRC networks, and why, some time later, Google decided to make its Google Plus social network compatible with other services such as Facebook Chat through the XMPP protocol.  We look at this two examples in more detail below in order to demonstrate the dynamics of the platformisation process.  We could draw on many parallel developments in the media environment, but these two cases are enough to illuminate the overall logic of this historical moment.
+
+### From @Maxigas2017c
+
+It was already 1996 when Microsoft included an IRC client in the default installation of its popular Windows operating system, taking note of IRC’s mainstream appeal. [@KurlanderSkellySalesin1996a] In the first major attempt to recuperate IRC, the software was developed by the company’s Artificial Intelligence research unit, and the application connected automatically to the company’s own IRC servers. [@LatzkoToth2010a] Ironically, the Comic Chat IRC interface was never popular with users, and the only artifact that went down in history from the whole enterprise was the Comic Sans font, which is still the laughing stock of Internet users. Microsoft never figured out how to make money from the largest online chat phenomena of the time.
+
+## Third step: Commercialisation and its "corporatisation"
+
+### From @Maxigas2017c
+
+One aspect or form of recuperation is *commodification*.  Commodification is when something at some point becomes a commodity to be brought and sold on the market.  Commodification targets *authentic* things, which are often already perceived to be valuable – for instance as a moral good – but not yet recognised as an object of monetary exchange.  The loss of authenticity through commodification produces *anxiety* in consumers, which can be diagnosed as the affective trace of capital’s violence.
+
+…
+
+Later, as the World Wide Web took off, chat features were integrated into Web 2.0 *social media platforms*.
+
+…
+
+Eventually, *surveillance* came to be the key means for both maintaining social peace and deepening exploitation on social media platforms. [^3]  Everyday, informal, even intimate gestures are captured and stored, sorted and mined for the purposes of both targeted advertising and targeted repression.  Such revenue is indispensable to the capital accumulation mechanisms of a growing section of capital, while the intelligence gained by authorities who share access to the information flows is essential to the maintenance of social order in both dictatorships *and* democracies.  For instance, surveillance – technically based on the analysis of log files – accounted for 89% of Google’s profit in 2014 [@Griffith2015a]. [^4]  All this hinges on successful *platformisation*: the ability of a vendor to install themselves as an obligatory passage point for generally mundane and often minuscule social interactions [@Gillespie2010a].  The kind of digital milieus where average Internet users chit-chat nowadays have been variously described by scholars as *enclosures*, *walled gardens* and *social media monopolies* [@LovinkRasch2013a].
 
 ## From @Maxigas2017c
 
 Eventually, *surveillance* came to be the key means for both maintaining social peace and deepening exploitation on social media platforms. [^3]  Everyday, informal, even intimate gestures are captured and stored, sorted and mined for the purposes of both targeted advertising and targeted repression 
+
 > [name=Alix-]
+
 We will need to refrain from using a too obvious ideological tone in the analytical sections. I suggest using “targeted policing” (but we need to provide an example). Additionally, I think what follows should take place either at the end of the chapter, in a more reflective section (rather than analytical, as the chapter should start with), or in the beginning of the next chapter, as a fundamental argument for "pressing the ESC key".
 
 Such revenue is indispensable to the capital accumulation mechanisms of a growing section of capital, while the intelligence gained by authorities who share access to the information flows is essential to the maintenance of social order in both dictatorships *and* democracies.  For instance, surveillance – technically based on the analysis of log files – accounted for 89% of Google’s profit in 2014 [@Griffith2015a]. [^4]  All this hinges on successful *platformisation*: the ability of a vendor to install themselves as an obligatory passage point for generally mundane and often minuscule social interactions [@Gillespie2010a].  The kind of digital milieus where average Internet users chit-chat nowadays have been variously described by scholars as *enclosures*, *walled gardens* and *social media monopolies* [@LovinkRasch2013a].
 
-The anxiety experienced by users stems from the fact that a supposedly informal space of social interaction is mediated by capital and overseen by the state, through mechanisms that seem obscure, arbitrary and partial from below.  One can remember that the two defining characteristics of a healthy *civil society* that can support technological sovereignty are its independence from capital and separation from the state [@Hache2014d].  It is *privacy* in a structural and collective sense that can be reclaimed through technological sovereignty initiatives, but only through the continuous struggle of users for taking the technological mediation of their social life into their own hands.
-> [name=Alix-]The sentence above is exactly the kind of stuff that should be found in the final chapter, where we articulate a "prescriptive proposal" for social media commons.
+…
 
 Notably, neither chat [@LatzkoToth2010a] nor personal computing [@Levy1984a] were “inventions” in the sense that a good idea was implemented and socialised through commodity circulation.  Both found a foothold in the market only after a relatively long period where fringe elements fought for them, often breaking existing laws, regulations and social norms.  Society then slowly tamed these technologies – and now they are used to pacify society itself.
 
