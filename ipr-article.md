@@ -62,7 +62,13 @@ contextualise and refine the results of the preliminary analysis. We use the fin
 
 # 4. Analysis
 
+# Scrape results
 
+## GitHub
+
+The GitHub platform holds the biggest collection of free software on the Internet.  We sampled about 10% of all projects.  We threw away those without descriptions, since they are typically one-off experiments.  We found that 126681, or 33% of the 4215056 project descriptions mentioned IRC or a closely related term (such as the name of major IRC servers).  A manual review of the dataset confirmed our hypothesis: IRC is overwhelmingly mentioned as a contact point for users and developers, where users may ask for support and developers may collaborate on the project.  We encourage researchers to try reproducing our results our published program and dataset, themselves availble as a GitHub project. [^githubproject]
+
+[^githubproject]: https://github.com/maxigas/escapebookcode
 
 # 5. Conclusion
 
